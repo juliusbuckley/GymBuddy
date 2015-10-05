@@ -1,0 +1,122 @@
+body{
+    font-family: Helvetica;
+    background-color: #070707;
+    color: #757575;
+}
+h4{
+    font-weight:bold;
+    text-align: center;
+}
+span{
+    font-size: 32px;
+    font-weight:bold;
+}
+#reset{
+    display: block;
+    width: 100px;
+    color: white;
+    background-color: #2288D3;
+    padding: 1em;
+    font-size: 18px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    outline: none;
+}
+.bodymain{
+    display: inline-block;
+    padding-left: 20px;
+}
+.top{
+    padding-left: 20px;
+}
+.filter {
+    width: 200px;
+    padding: 1px;
+    border: 1px solid black;
+    margin: 25px;
+    float: left;
+    display: none;
+}
+ul.checkbox {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    list-style: none;
+}
+ul.checkbox li input {
+    margin-right: .25em;
+}
+ul.checkbox li {
+    border: 1px transparent solid;
+    display:inline-block;
+    width:12em;
+}
+ul.checkbox li label {
+    margin-left:;
+}
+.exercise-list{
+    background-color: #111111;
+    width: 550px;
+    height: 560px;
+    padding: 15px;
+    border: 1px solid #757575;;
+    margin: 25px;
+    float: right;
+    overflow: auto;
+    font-size: 24px;
+}
+.hide{
+    display: none;
+}
+.exercise-list span{
+    font-size: 24px;
+}
+.exercise-list span a{
+    color: #C10016;
+    text-decoration: none;
+}
+.exercise-list li{
+    list-style-type: none;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.exercise-list img{
+    padding-top: 12px;
+    padding-left: 12px;
+    width: 100px;
+    height: 100px;
+}
+div .exercise-list .col{
+    border: 1px solid #757575;;
+}
+div .exercise-list .row{
+    display: inline-block;
+}
+.highlight{
+    background-color: #E6E6E6;
+}
+.highlight-button{
+    opacity: .7;
+}
+#submit{
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: #2288D3; #258DCC
+    padding: 1em;
+    font-size: 18px;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    outline: none;
+}
+.button{
+    width: 240px;
+	height: 45px;
+	font: 20px Arial, sans-serif;
+}
+.blue{
+    color: #258DCC;
+}
+.green{
+    color: #668A04;
+}

@@ -1,0 +1,192 @@
+[
+    {
+        "id": "abdominals",
+        "primary-muscle": "Abdominals",
+        "other-muscles": "NA",
+        "equipment":"Cable",
+        "name": "Ab Pulldown",
+        "link": "https://www.youtube.com/watch?v=2fbujeH3F0E",
+        "image": "assets/images/abpulldown.jpg"
+    },
+    {
+        "id": "abdominals",
+        "primary-muscle": "Abdominals",
+        "other-muscles": "Hamstrings",
+        "equipment":"Body Only",
+        "name": "Flutter Kicks",
+        "link": "https://www.youtube.com/watch?v=ANVdMDaYRts",
+        "image": "assets/images/flutterkicks.jpg"
+    },
+    {
+        "id": "shoulders",
+        "primary-muscle": "Shoulders",
+        "other-muscles": "",
+        "equipment":"Dumbbell",
+        "name": "Side Lateral Raise",
+        "link": "https://www.youtube.com/watch?v=3VcKaXpzqRo",
+        "image": "assets/images/sidelatraise.jpg"
+    },
+    {
+        "id": "shoulders",
+        "primary-muscle": "Shoulders",
+        "other-muscles": "Triceps",
+        "equipment":"Dumbbell",
+        "name": "Dumbbell Shoulder Press",
+        "link": "https://www.youtube.com/watch?v=qEwKCR5JCog",
+        "image": "assets/images/dbshoulderpress.jpg"
+    },
+    {
+        "id": "traps",
+        "primary-muscle": "Traps",
+        "other-muscles": "NA",
+        "equipment":"Dumbbell",
+        "name": "Dumbbell Shrug",
+        "link": "https://www.youtube.com/watch?v=cJRVVxmytaM",
+        "image": "assets/images/dbshrug.jpg"
+    },
+    {
+        "id": "traps",
+        "primary-muscle": "Traps",
+        "other-muscles": "Biceps, Shoulders",
+        "equipment":"Dumbbell",
+        "name": "Standing Dumbbell Upright Row",
+        "link": "https://www.youtube.com/watch?v=IhZLB48kluc",
+        "image": "assets/images/dbuprow.jpg"
+    },
+    {
+        "id": "triceps",
+        "primary-muscle": "Triceps",
+        "other-muscles": "NA",
+        "equipment":"Barbell",
+        "name": "Skull Crusher",
+        "link": "https://www.youtube.com/watch?v=d_KZxkY_0cM",
+        "image": "assets/images/skullcrusher.jpg"
+    },
+    {
+        "id": "triceps",
+        "primary-muscle": "Triceps",
+        "other-muscles": "NA",
+        "equipment":"Cable",
+        "name": "Triceps Pushdown",
+        "link": "https://www.youtube.com/watch?v=vB5OHsJ3EME",
+        "image": "assets/images/tripushdown.jpg"
+    },
+    {
+        "id": "lats",
+        "primary-muscle": "Lats",
+        "other-muscles": "Middle Back",
+        "equipment":"Cable",
+        "name": "Seated Lat Pulldown",
+        "link": "https://www.youtube.com/watch?v=X5n55mMqSUs",
+        "image": "assets/images/latpulldown.jpg"
+    },
+    {
+        "id": "calves",
+        "primary-muscle": "Calves",
+        "other-muscles": "NA",
+        "equipment":"Machine",
+        "name": "Standing Calf Raises",
+        "link": "https://www.youtube.com/watch?v=YMmgqO8Jo-k",
+        "image": "assets/images/standingcalf.jpg"
+    },
+    {
+        "id": "calves",
+        "primary-muscle": "Calves",
+        "other-muscles": "NA",
+        "equipment":"Barbell",
+        "name": "Standing Barbell Calf Raise",
+        "link": "https://www.youtube.com/watch?v=3UWi44yN-wM",
+        "image": "assets/images/calfraise.jpg"
+    },
+    {
+        "id": "forearms",
+        "primary-muscle": "Forearms",
+        "other-muscles": "NA",
+        "equipment":"Barbell",
+        "name": "Seated Wrist Curl",
+        "link": "https://www.youtube.com/watch?v=qMtmHwaCmYI",
+        "image": "assets/images/wristcurl.jpg"
+    },
+    {
+        "id": "biceps",
+        "primary-muscle": "Biceps",
+        "other-muscles": "Forearms",
+        "equipment":"Dumbbell",
+        "name": "Incline Dumbbell Bicep Curl",
+        "link": "https://www.youtube.com/watch?v=soxrZlIl35U",
+        "image": "assets/images/seatedbicepcurl.jpg"
+    },
+    {
+        "id": "biceps",
+        "primary-muscle": "Biceps",
+        "other-muscles": "Forearms",
+        "equipment":"Dumbbell",
+        "name": "Alternate Bicep Curl",
+        "link": "https://www.youtube.com/watch?v=sAq_ocpRh_I",
+        "image": "assets/images/altbicepcurl.jpg"
+    },
+    {
+        "id": "glutes",
+        "primary-muscle": "Glutes",
+        "other-muscles": "Calves, Hamstrings",
+        "equipment":"Barbell",
+        "name": "Barbell Glute Bridge",
+        "link": "https://www.youtube.com/watch?v=ylpfCk3i-0Y",
+        "image": "assets/images/glutebridge.jpg"
+    },
+    {
+        "id": "hamstrings",
+        "primary-muscle": "Hamstrings",
+        "other-muscles": "NA",
+        "equipment":"Machine",
+        "name": "Lying Leg Curls",
+        "link": "https://www.youtube.com/watch?v=1Tq3QdYUuHs",
+        "image": "assets/images/lyinglegcurl.jpg"
+    },
+    {
+        "id": "hamstrings",
+        "primary-muscle": "Hamstrings",
+        "other-muscles": "NA",
+        "equipment":"Machine",
+        "name": "Seated Leg Curl",
+        "link": "https://www.youtube.com/watch?v=ELOCsoDSmrg",
+        "image": "assets/images/seatedlegcurl.jpg"
+    },
+    {
+        "id": "chest",
+        "primary-muscle": "Chest",
+        "other-muscles": "Shoulders, Triceps",
+        "equipment":"Dumbbell",
+        "name": "Dumbbell Chest Press",
+        "link": "https://www.youtube.com/watch?v=VmB1G1K7v94",
+        "image": "assets/images/dbchestpress.jpg"
+    },
+    {
+        "id": "chest",
+        "primary-muscle": "Chest",
+        "other-muscles": "Shoulders",
+        "equipment":"Cable",
+        "name": "Middle Cable Chest Fly",
+        "link": "https://www.youtube.com/watch?v=WEM9FCIPlxQ",
+        "image": "assets/images/middlecablechest.jpg"
+    },
+    {
+        "id": "quadriceps",
+        "primary-muscle": "Quadriceps",
+        "other-muscles": "Glutes, Hamstrings",
+        "equipment":"Machine",
+        "name": "Leg Press",
+        "link": "https://www.youtube.com/watch?v=oujca3_Shgw",
+        "image": "assets/images/legpress.jpg"
+    },
+    {
+        "id": "quadriceps",
+        "primary-muscle": "Quadriceps",
+        "other-muscles": "Shoulders",
+        "equipment":"Machine",
+        "name": "Leg Extensions",
+        "link": "https://www.youtube.com/watch?v=YyvSfVjQeL0",
+        "image": "assets/images/legext.jpg"
+    }
+
+]
