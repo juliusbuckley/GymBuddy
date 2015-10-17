@@ -2,6 +2,36 @@ body{
     font-family: Helvetica;
     background-color: #070707;
     color: #757575;
+    margin:0;
+    padding:0;
+}
+#nav{
+    background-color: #232323;
+    border-bottom: 1px solid #E6E6E6;
+    box-shadow: 1px 1px 1px #888888;
+    position: fixed;
+    z-index: 100;
+    height: 60px;
+    width: 100%;
+    text-align:center;
+    font-size:24px;
+}
+#nav ul{
+  height: auto;
+  padding: 13px 0px;
+  margin: 0;
+}
+#nav li{
+  display: inline;
+  padding:20px;
+}
+#nav a{
+  text-decoration: none;
+  color: #757575;
+  padding: 15px 8px 15px 8px;
+}
+#nav a:hover{
+  color: #A8A8A8;
 }
 h4{
     font-weight:bold;
@@ -11,7 +41,7 @@ span{
     font-size: 32px;
     font-weight:bold;
 }
-#reset{
+#button{
     display: block;
     width: 100px;
     color: white;
@@ -25,8 +55,10 @@ span{
 .bodymain{
     display: inline-block;
     padding-left: 20px;
+    padding-top: 20px;
 }
 .top{
+    padding-top: 60px;
     padding-left: 20px;
 }
 .filter {
@@ -98,25 +130,62 @@ div .exercise-list .row{
 .highlight-button{
     opacity: .7;
 }
-#submit{
-    display: block;
-    width: 100%;
-    color: white;
-    background-color: #2288D3; #258DCC
-    padding: 1em;
-    font-size: 18px;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-    outline: none;
-}
-.button{
-    width: 240px;
-	height: 45px;
-	font: 20px Arial, sans-serif;
-}
 .blue{
     color: #258DCC;
 }
 .green{
     color: #668A04;
+}
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+/*Gender selectors*/
+.selected {
+    color:#2ABD4C
+}
+.column_space {
+	margin-right: 15px;
+	float: left;
+    padding:5px;
+}
+.input_row input{
+    width: 55px;
+	height: 25px;
+	font: 14px Arial, sans-serif;
+}
+.input_row{
+    padding: 7px 0;
+	position: relative;
+}
+.input_row:before,
+.input_row:after {
+	clear: both;
+	content: " ";
+    display: block;
+	height: 0;
+	visibility: hidden;
+}
+.inline label {
+	display:block;
+	font: 17px Arial, sans-serif;
+	line-height: 2;
+}
+.input_row label{
+    font: 17px Arial, sans-serif;
+	line-height: 2;
+}
+.cal-counter{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #757575;
+    background-color: #111111;
+    width: 270px;
+    height: 540px;
+    font-size: 24px;
+}
+.space{
+    padding-top: 10px;
 }

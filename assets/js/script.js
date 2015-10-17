@@ -41,10 +41,8 @@ $(function (){
     // divs are created on load and set to hidden
 	function generateAllProductsHTML(data){
 		var list = $('.all-exercises .exercise-list');
-
         // grab the template script
         var theTemplateScript = $("#exercise-template").html();
-
 		// compile html template and append to list
 		var theTemplate = Handlebars.compile(theTemplateScript);
 		list.append(theTemplate(data));
@@ -68,6 +66,12 @@ $(function (){
         }
     });
 
+    // makes gender radio hidden and addes highlight color
+    $('#gender-color input:radio').addClass('input_hidden');
+    $('#gender-color label').click(function(){
+        $(this).addClass('selected').siblings().removeClass('selected');
+    });
+
     // adds highlight class while mouseenter exercise column
     $(".exercise-list").on("mouseenter",".col",function(){
         $(this).addClass("highlight");
@@ -81,18 +85,23 @@ $(function (){
     });
 
     // adds highlight class while mouseenter button
-    $('#reset').on("mouseenter",function(){
+    $('#button').on("mouseenter",function(){
         $(this).addClass("highlight-button");
     });
 
     // removes highlight class while mouseenter button
-    $('#reset').on("mouseleave",function(){
+    $('#button').on("mouseleave",function(){
         $(this).removeClass("highlight-button");
     });
 
     // refresh page
-    $('#reset').click(function(){
+    $('.bodymain').on("click","#button",function(){
         location.reload();
+    });
+
+    // submit form
+    $('.form-btn').click(function(){
+        console.log($('form').serializeArray());
     });
 
 });
