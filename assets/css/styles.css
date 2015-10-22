@@ -124,6 +124,12 @@ div .exercise-list .col{
 div .exercise-list .row{
     display: inline-block;
 }
+div .food-list .col{
+    border: 1px solid #757575;;
+}
+div .food-list .row{
+    display: inline-block;
+}
 .highlight{
     background-color: #E6E6E6;
 }
@@ -135,6 +141,9 @@ div .exercise-list .row{
 }
 .green{
     color: #668A04;
+}
+.white{
+    color: #FFCC00;
 }
 .input_hidden {
     position: absolute;
@@ -176,6 +185,7 @@ div .exercise-list .row{
 	line-height: 2;
 }
 .cal-counter{
+    display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 20px;
@@ -183,9 +193,50 @@ div .exercise-list .row{
     border: 1px solid #757575;
     background-color: #111111;
     width: 270px;
-    height: 540px;
+    height: 500px;
     font-size: 24px;
+    float: left;
 }
 .space{
     padding-top: 10px;
+}
+.food-groups{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #757575;
+    background-color: #111111;
+    width: 270px;
+    height: 500px;
+    font-size: 24px;
+    float: left;
+}
+.all-foods{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #757575;
+    background-color: #111111;
+    width: 460px;
+    height: 500px;
+    font-size: 24px;
+    float: left;
+    overflow: auto;
+}
+.footer{
+    padding-left: 20px;
+    margin-top: 340px;
+}
+.form-reset{
+    padding-left: 20px;
+}
+.red{
+    color: #C10016;
+}
+.food-description{
+    list-style: none;
 }

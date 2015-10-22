@@ -1,0 +1,256 @@
+[
+    {
+        "id": 1,
+        "group": "fruit",
+        "name": "banana",
+        "calories": 48,
+        "fat": 0.2,
+        "sodium": 1,
+        "carbs": 12.4,
+        "protein": 0.6,
+        "serving": 3
+    },
+    {
+        "id": 2,
+        "group": "fruit",
+        "name": "apple",
+        "calories": 53,
+        "fat": 0.2,
+        "sodium": 1,
+        "carbs": 14.1,
+        "protein": 0.3,
+        "serving": 4
+    },
+    {
+        "id": 3,
+        "group": "fruit",
+        "name": "blueberries",
+        "calories": 84,
+        "fat": 0.5,
+        "sodium": 1,
+        "carbs": 21.4,
+        "protein": 1.1,
+        "serving": 5.2
+    },
+    {
+        "id": 4,
+        "group": "fruit",
+        "name": "blackberries",
+        "calories": 62,
+        "fat": 0.7,
+        "sodium": 1,
+        "carbs": 14.7,
+        "protein": 2,
+        "serving": 5.1
+    },
+    {
+        "id": 5,
+        "group": "fruit",
+        "name": "pineapple",
+        "calories": 83,
+        "fat": 0.2,
+        "sodium": 2,
+        "carbs": 21.6,
+        "protein": 0.9,
+        "serving": 5.8
+    },
+    {
+        "id": 6,
+        "group": "vegetable",
+        "name": "asparagus",
+        "calories": 27,
+        "fat": 0.2,
+        "sodium": 2,
+        "carbs": 5.3,
+        "protein": 2.9,
+        "serving": 4.7
+    },
+    {
+        "id": 7,
+        "group": "vegetable",
+        "name": "broccoli",
+        "calories": 31,
+        "fat": 0.3,
+        "sodium": 30,
+        "carbs": 6,
+        "protein": 2.6,
+        "serving": 3.2
+    },
+    {
+        "id": 8,
+        "group": "vegetable",
+        "name": "collard greens",
+        "calories": 22,
+        "fat": 0.3,
+        "sodium": 14,
+        "carbs": 4.1,
+        "protein": 1.8,
+        "serving": 2.6
+    },
+    {
+        "id": 9,
+        "group": "vegetable",
+        "name": "sweet potato",
+        "calories": 114,
+        "fat": 0.1,
+        "sodium": 73,
+        "carbs": 26.8,
+        "protein": 2.1,
+        "serving": 4.7
+    },
+    {
+        "id": 10,
+        "group": "vegetable",
+        "name": "kale",
+        "calories": 34,
+        "fat": 0.5,
+        "sodium": 29,
+        "carbs": 26.8,
+        "protein": 2.2,
+        "serving": 2.4
+    },
+    {
+        "id": 11,
+        "group": "poultry",
+        "name": "chicken breast",
+        "calories": 194,
+        "fat": 10.5,
+        "sodium": 71,
+        "carbs": 0,
+        "protein": 23.6,
+        "serving": 4
+    },
+    {
+        "id": 12,
+        "group": "poultry",
+        "name": "whole egg",
+        "calories": 78,
+        "fat": 5.3,
+        "sodium": 62,
+        "carbs": 0.6,
+        "protein": 6.3,
+        "serving": 1.8
+    },
+    {
+        "id": 13,
+        "group": "poultry",
+        "name": "egg white",
+        "calories": 126,
+        "fat": 0.4,
+        "sodium": 403,
+        "carbs": 1.8,
+        "protein": 26.5,
+        "serving": 8.6
+    },
+    {
+        "id": 14,
+        "group": "seafood",
+        "name": "atlantic salmon",
+        "calories": 207,
+        "fat": 12.3,
+        "sodium": 67,
+        "carbs": 0,
+        "protein": 22.5,
+        "serving": 4
+    },
+    {
+        "id": 15,
+        "group": "seafood",
+        "name": "tilapia",
+        "calories": 108,
+        "fat": 1.9,
+        "sodium": 59,
+        "carbs": 0,
+        "protein": 22.7,
+        "serving": 4
+    },
+    {
+        "id": 16,
+        "group": "meat",
+        "name": "95% lean ground beef",
+        "calories": 218,
+        "fat": 8.6,
+        "sodium": 96,
+        "carbs": 0,
+        "protein": 33,
+        "serving": 4
+    },
+    {
+        "id": 17,
+        "group": "meat",
+        "name": "lean pork tenderloin",
+        "calories": 185,
+        "fat": 5.4,
+        "sodium": 63,
+        "carbs": 0,
+        "protein": 31.8,
+        "serving": 4
+    },
+    {
+        "id": 18,
+        "group": "rice",
+        "name": "long grain white rice",
+        "calories": 205,
+        "fat": 0.4,
+        "sodium": 2,
+        "carbs": 44.5,
+        "protein": 4.3,
+        "serving": 5.6
+    },
+    {
+        "id": 19,
+        "group": "rice",
+        "name": "long grain brown rice",
+        "calories": 216,
+        "fat": 1.8,
+        "sodium": 10,
+        "carbs": 44.8,
+        "protein": 5,
+        "serving": 6.9
+    },
+    {
+        "id": 20,
+        "group": "bread",
+        "name": "ezekiel bread",
+        "calories": 80,
+        "fat": 0.5,
+        "sodium": 75,
+        "carbs": 15,
+        "protein": 4,
+        "serving": 1.2
+    },
+    {
+        "id": 21,
+        "group": "cheese",
+        "name": "low-fat cottage cheese",
+        "calories": 163,
+        "fat": 2.3,
+        "sodium": 918,
+        "carbs": 6.1,
+        "protein": 28,
+        "serving": 8
+    },
+    {
+        "id": 22,
+        "group": "yogurt",
+        "name": "0% fat plain greek yogurt",
+        "calories": 100,
+        "fat": 0,
+        "sodium": 65,
+        "carbs": 7,
+        "protein": 18,
+        "serving": 6
+    },
+    {
+        "id": 23,
+        "group": "sauce",
+        "name": "cholula",
+        "calories": 0,
+        "fat": 0,
+        "sodium": 85,
+        "carbs": 0,
+        "protein": 0,
+        "serving": 0.2
+    }
+
+]
