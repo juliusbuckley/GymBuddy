@@ -125,7 +125,7 @@ $(function (){
         var listOfFood = "";
         // if array is string return message
         if(typeof array === "string"){
-            listOfFood = '<ul class="food-description">'+'<li><span class="red"></span>'+array+'</li> </ul>';
+            listOfFood = '<ul class="food-description">'+'<li><span></span>'+array+'</li></ul>';
             return listOfFood;
         }
         array.forEach(function(food){
