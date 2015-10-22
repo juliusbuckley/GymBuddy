@@ -123,6 +123,11 @@ $(function (){
     function updateFood(array){
         $(".food-description").remove();
         var listOfFood = "";
+        // if array is string return message
+        if(typeof array === "string"){
+            listOfFood = '<ul class="food-description">'+'<li><span class="red"></span>'+array+'</li> </ul>';
+            return listOfFood;
+        }
         array.forEach(function(food){
             listOfFood +=  '<ul class="food-description">'+
                                 '<li><span class="red">Type: </span>'+food.group+'</li>'+
@@ -134,7 +139,6 @@ $(function (){
                                 '<li><span class="green">Protein: </span>'+food.protein+' grams</li>'+
                                 '<li><span class="green">Serving Size: </span>'+food.serving+' ounces</li>'+
                             '</ul>';
-
         });
         return listOfFood;
     }
