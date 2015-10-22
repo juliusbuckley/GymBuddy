@@ -130,14 +130,14 @@ $(function (){
         }
         array.forEach(function(food){
             listOfFood +=  '<ul class="food-description">'+
-                                '<li><span class="red">Type: </span>'+food.group+'</li>'+
-                                '<li><span class="white">Name: </span>'+food.name+'</li>'+
- 						        '<li><span class="blue">Calories: </span>'+food.calories+'</li>'+
-                                '<li><span class="blue">Fat: </span>'+food.fat+' grams</li>'+
-                                '<li><span class="blue">Sodium: </span>'+food.sodium+' milligrams</li>'+
-						        '<li><span class="green">Carbs: </span>'+food.carbs+' grams</li>'+
-                                '<li><span class="green">Protein: </span>'+food.protein+' grams</li>'+
-                                '<li><span class="green">Serving Size: </span>'+food.serving+' ounces</li>'+
+                                '<li><span class="white"><u>'+food.name+'</u></span></li>'+
+                                '<li><span class="red">type: </span>'+food.group+'</li>'+
+ 						        '<li><span class="blue">calories: </span>'+food.calories+'</li>'+
+                                '<li><span class="blue">fat: </span>'+food.fat+' g</li>'+
+                                '<li><span class="blue">sodium: </span>'+food.sodium+' mg</li>'+
+						        '<li><span class="green">carbs: </span>'+food.carbs+' g</li>'+
+                                '<li><span class="green">protein: </span>'+food.protein+' g</li>'+
+                                '<li><span class="green">serving size: </span>'+food.serving+' oz</li>'+
                             '</ul>';
         });
         return listOfFood;
